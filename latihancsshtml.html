@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Site</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    background-color: #e8f3fb:
+  }
+
+  /* ===== HEADER ===== */
+  header {
+    position: relative;
+    height: 500px;
+    background-image: url("wpbarbie2.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+
+  .logo {
+    width: 200px;
+    height: 75px;
+    border: 2px solid #f42eda;
+    border-radius: 8px;
+    background-color: #fff;
+    background-image: url("logobarbie.jpg");
+    background-size: contain;      
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  /* ===== BODY SECTION ===== */
+  .body-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    margin: 40px;
+    background-color: #fff;
+    border: 2px solid #f42eda;
+    border-radius: 16px;
+  }
+
+  .left-col,
+  .right-col {
+    width: 300px;
+    padding: 20px;
+    background-color: #f994f3;
+    border: 2px solid #f42eda;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .left-col ul {
+    list-style: none;
+  }
+
+  .left-col li {
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+
+  .right-col {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .right-col .text-list p {
+    margin-bottom: 15px;
+  }
+
+  .content-image {
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0; 
+    border: 2px solid #f42eda;
+    border-radius: 8px;
+    background-image: url("wpbarbie1.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* ===== FOOTER ===== */
+  footer {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    background-color: #1a1a1a; 
+    color: #fff;
+  }
+
+  .footer-logo {
+    width: 200px;
+    height: 75px;
+    border: 2px solid #f42eda;
+    border-radius: 8px;
+    background-color: #fff;
+    background-image: url("logobarbie.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 60px;
+  }
+
+  .footer-links ul {
+    list-style: none;
+  }
+
+  .footer-links li {
+    margin-bottom: 5px;
+    color: #fff;
+  }
+
+  .footer-links h4 {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="header-top">
+      <div class="logo"></div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== BODY SECTION ===== -->
+  <main class="body-section">
+    <div class="left-col">
+      <ul>
+        <li>The Flight</li>
+        <li>The Island</li>
+        <li>The City</li>
+      </ul>
+    </div>
+
+    <div class="right-col">
+      <div class="text-list">
+        <p>Lorem Ipsum dolor sit amet consectetur.</p>
+        <p>Lorem Ipsum dolor sit amet consectetur.</p>
+        <p>Lorem Ipsum dolor sit amet consectetur.</p>
+        <p>Lorem Ipsum dolor sit amet consectetur.</p>
+      </div>
+      <div class="content-image"></div>
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-logo"></div>
+
+    <div class="footer-links">
+      <div>
+        <h4>Quick Link</h4>
+        <ul>
+          <li>Home</li>
+          <li>Service</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>Policy</li>
+          <li>Site map</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Medsos</h4>
+        <ul>
+          <li>FB</li>
+          <li>IG</li>
+          <li>Tiktok</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

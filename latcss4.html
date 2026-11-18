@@ -1,0 +1,51 @@
+<HTML>
+<HEAD>
+<TITLE>Pengaturan Pada Form Text Area</TITLE> <STYLE ="text/css">
+form{ border:1px solid #4a03fd;
+width : 50%;
+margin-left:0; /*jarak fieldset dari batas kiri
+layout*/
+background-color:#f978c6;}
+</STYLE>
+</HEAD>
+<BODY>
+<form name="form1" method="post" action=""> <table  border="1">
+<TR>
+    <TD width="50" >Nama </TD>
+    <TD width="175" ><textarea name="textarea"cols=50></textarea></TD>
+</TR>
+<TR>
+    <TD width="50" >Pesan </TD>
+    <TD width="175" ><textarea name="textarea"cols=50 rows=14></textarea></TD>
+</TR>
+<tr>
+    <td rowspan="2">Jenis Kelamin :</td>    <td><input type="radio" value="laki" name="jenis" > Laki Laki </td>
+</tr>
+<tr>
+    <td><input type="radio" value="wanita" name="jenis" > Wanita</td>
+</tr>
+<tr>
+<td rowspan="3">Hoby:</td>  <td><input type="checkbox" value="Music" name="Hoby"> Music</td>
+<tr>
+    <td><input type="checkbox" value="Olah Raga" name="Hoby"> Olah Raga</td>
+</tr>
+<tr>
+    <td><input type="checkbox" value="Game" name="Hoby"> Game</td>
+</tr>
+<tr>
+<td>Kota:</td>  <td><select name="kota" >
+    <option value="Bandung">Bandung </option>
+    <option value="Jakarta"> Jakarta </option>
+    <option value="Bogor"> Bogor </option>
+    </select> </td>
+</tr>
+<tr>
+    <td><input type="submit" value="kirim"></td> 
+</tr>
+<tr>
+    <td><input type="reset" value="batal"></td>
+</tr>
+</table>
+</form>
+</BODY>
+</HTML>
